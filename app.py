@@ -157,11 +157,6 @@ def app():
 # ---------------- MAIN ----------------
 with gr.Blocks() as gradio_app:
     gr.HTML("<h1 style='text-align:center'>YOLOv8 Object Detection</h1>")
-    gr.HTML(
-        "<h3 style='text-align:center'>"
-        "<a href='https://github.com/ultralytics/ultralytics' target='_blank'>GitHub</a>"
-        "</h3>"
-    )
     app()
 
 if __name__ == "__main__":
