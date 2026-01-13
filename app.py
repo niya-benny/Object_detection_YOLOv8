@@ -141,17 +141,6 @@ def app():
             outputs=[output_image, output_video]
         )
 
-        # ---------- EXAMPLES ----------
-        # gr.Examples(
-        #     examples=[
-        #         ["ultralytics/assets/bus.jpg", "yolov8s", 640, 0.25],
-        #         ["ultralytics/assets/zidane.jpg", "yolov8s", 640, 0.25],
-        #     ],
-        #     fn=yolov8_examples,
-        #     inputs=[image, model_id, image_size, conf_threshold],
-        #     outputs=output_image,
-        #     cache_examples=False
-        # )
 
 
 # ---------------- MAIN ----------------
